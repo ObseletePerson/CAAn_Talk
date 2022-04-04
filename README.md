@@ -1,6 +1,6 @@
 # CAAn_Talk
 
-## Brainstorm
+### Brainstorm
 app communication\
 CAAn Talk\
 (Communication Assistance Application)n Talk

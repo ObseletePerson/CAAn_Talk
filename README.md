@@ -37,3 +37,9 @@ app admin?\
 partage de fiches\
 app user\
 transfert de fiches
+
+
+### Useful links
+
+[splash screen 1](https://developer.android.com/reference/android/window/SplashScreen)
+[splash screen 2](https://developer.android.com/guide/topics/ui/splash-screen)

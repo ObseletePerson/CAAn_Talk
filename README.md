@@ -44,7 +44,7 @@ transfert de fiches
 
 [splash screen 1](https://developer.android.com/reference/android/window/SplashScreen) \
 [splash screen 2](https://developer.android.com/guide/topics/ui/splash-screen) \
-[splash screen 3](https://developer.android.com/guide/topics/ui/splash-screen/migrate) \
+[splash screen 3](https://developer.android.com/guide/topics/ui/splash-screen/migrate)
 
 
 ### Code shenanigans

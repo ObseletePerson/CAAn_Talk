@@ -3,7 +3,8 @@
 ### Brainstorm
 app communication\
 CAAn Talk\
-(Communication Assistance Application)n Talk
+~~(Communication Assistance Application)n Talk~~
+(Communication Alternative Améliorée)n Talk
 
 OFFLINE\
 android

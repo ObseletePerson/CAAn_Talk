@@ -41,5 +41,11 @@ transfert de fiches
 
 ### Useful links
 
-[splash screen 1](https://developer.android.com/reference/android/window/SplashScreen)
-[splash screen 2](https://developer.android.com/guide/topics/ui/splash-screen)
+[splash screen 1](https://developer.android.com/reference/android/window/SplashScreen) \
+[splash screen 2](https://developer.android.com/guide/topics/ui/splash-screen) \
+[splash screen 3](https://developer.android.com/guide/topics/ui/splash-screen/migrate) \
+
+### Code shenanigans
+
+class menu pour settings\
+ajouter splashscreen lors du démarrage

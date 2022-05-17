@@ -45,6 +45,7 @@ transfert de fiches
 [splash screen 2](https://developer.android.com/guide/topics/ui/splash-screen) \
 [splash screen 3](https://developer.android.com/guide/topics/ui/splash-screen/migrate) \
 
+
 ### Code shenanigans
 
 class menu pour settings\

@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">CAAn Talk</string>
-    <string name="bienvenue">Bienvenue sur CAAn Talk</string>
-    <string name="communiquer">Commencer la communication</string>
+    <string name="banane">Banane</string>
 </resources>

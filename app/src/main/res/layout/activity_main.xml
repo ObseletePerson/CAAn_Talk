@@ -20,8 +20,9 @@
             android:layout_width="150dp"
             android:src="@drawable/banane"
             android:scaleType="fitCenter"/>
-        <TextView
-            android:id="@+id/bananetext"
+
+        <Button
+            android:id="@+id/bananebutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/banane"/>

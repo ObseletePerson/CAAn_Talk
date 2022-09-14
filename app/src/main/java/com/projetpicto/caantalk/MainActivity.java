@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import java.util.Locale;
@@ -12,6 +13,8 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     TextToSpeech lecture;
+    ImageButton banane;
+    Button bananeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,14 +30,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        ImageButton banane = (ImageButton) findViewById(R.id.banane);
+        banane = (ImageButton) findViewById(R.id.banane);
+
+        bananeButton = (Button) findViewById(R.id.bananebutton);
 
         banane.setOnClickListener(this);
+        bananeButton.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v){
-        lecture.speak(getString(R.string.banane), TextToSpeech.QUEUE_FLUSH, null);
+        switch (v.getId()){
+            case R.id.bananebutton:
+                banane.performClick();
+                break;
+
+            case R.id.banane:
+                lecture.speak(getString(R.string.banane), TextToSpeech.QUEUE_FLUSH, null);
+                break;
+        }
     }
 
     public void onPause(){

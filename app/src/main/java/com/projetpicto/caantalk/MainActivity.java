@@ -7,14 +7,14 @@ import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     TextToSpeech lecture;
-    ImageButton banane;
-    Button bananeButton;
+    LinearLayout layoutBanane;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,22 +30,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        banane = (ImageButton) findViewById(R.id.banane);
+        layoutBanane = (LinearLayout) findViewById(R.id.layoutbanane);
 
-        bananeButton = (Button) findViewById(R.id.bananebutton);
-
-        banane.setOnClickListener(this);
-        bananeButton.setOnClickListener(this);
+        layoutBanane.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v){
         switch (v.getId()){
-            case R.id.bananebutton:
-                banane.performClick();
-                break;
-
-            case R.id.banane:
+            case R.id.layoutbanane:
                 lecture.speak(getString(R.string.banane), TextToSpeech.QUEUE_FLUSH, null);
                 break;
         }

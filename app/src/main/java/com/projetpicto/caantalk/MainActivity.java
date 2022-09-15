@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     TextToSpeech lecture;
     LinearLayout layoutBanane;
+    LinearLayout layoutTomate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,8 +32,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
         layoutBanane = (LinearLayout) findViewById(R.id.layoutbanane);
+        layoutTomate = (LinearLayout) findViewById(R.id.layouttomate);
 
         layoutBanane.setOnClickListener(this);
+        layoutTomate.setOnClickListener(this);
     }
 
     @Override
@@ -40,6 +43,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.layoutbanane:
                 lecture.speak(getString(R.string.banane), TextToSpeech.QUEUE_FLUSH, null);
+                break;
+
+            case R.id.layouttomate:
+                lecture.speak(getString(R.string.tomate), TextToSpeech.QUEUE_FLUSH, null);
                 break;
         }
     }

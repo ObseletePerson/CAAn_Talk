@@ -7,29 +7,57 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/layoutbanane"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@color/grey"
-        android:padding="10dp">
-        <ImageView
-            android:id="@+id/banane"
-            android:layout_height="150dp"
-            android:layout_width="150dp"
-            android:src="@drawable/banane"
-            android:scaleType="fitCenter"
-            android:background="@color/white"/>
-
-        <TextView
+        app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout
+            android:id="@+id/layoutbanane"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/banane"/>
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:padding="10dp"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/banane"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:src="@drawable/banane"
+                android:scaleType="fitCenter"
+                android:background="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/banane"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layouttomate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:padding="10dp"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/tomate"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:src="@drawable/tomate"
+                android:scaleType="fitCenter"
+                android:background="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tomate"/>
+        </LinearLayout>
     </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

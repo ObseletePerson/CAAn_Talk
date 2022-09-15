@@ -24,8 +24,8 @@
             android:layout_margin="10dp">
             <ImageView
                 android:id="@+id/banane"
-                android:layout_height="150dp"
-                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
                 android:src="@drawable/banane"
                 android:scaleType="fitCenter"
                 android:background="@color/white"/>
@@ -45,8 +45,8 @@
             android:layout_margin="10dp">
             <ImageView
                 android:id="@+id/tomate"
-                android:layout_height="150dp"
-                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_width="100dp"
                 android:src="@drawable/tomate"
                 android:scaleType="fitCenter"
                 android:background="@color/white"/>
